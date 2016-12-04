@@ -7,6 +7,10 @@ dependencies:
   post:
     - aws configure set region $REGION
 
+test:
+  override:
+    - echo "Nothing to do here"
+
 deployment:
   production:
     branch: master

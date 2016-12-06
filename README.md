@@ -41,3 +41,11 @@ Set Environment Variables for using in CD pipeline.
 - REGION
 - S3_BUCKET_NAME
 - STACK_NAME
+
+## Misc
+### .gitignore of mine.
+```
+*.DS_Store
+*.zip
+*.deploy
+```
